@@ -38,5 +38,7 @@ yarn-error.log*
 .vercel
 
 # Local Netlify folder
-.netlifynode_modules/
+.netlify
+
+node_modules/
 .next/
