@@ -49,23 +49,23 @@ export const navigationLinks = [
   },
 ]
 
-// Footer links - organized for an Asian entertainment site
+// Footer links - organized for a Hollywood entertainment site
 export const footerLinks = [
   { name: "Home", path: HOME_ROUTE },
   { name: "All Articles", path: ARTICLE_ROUTE },
-  { name: "K-Drama", path: CATEGORY_ID_ROUTE("kdrama") },
   { name: "Movies", path: CATEGORY_ID_ROUTE("movies") },
-  { name: "Anime", path: CATEGORY_ID_ROUTE("anime") },
+  { name: "TV Shows", path: CATEGORY_ID_ROUTE("tv-shows") },
+  { name: "Celebrities", path: CATEGORY_ID_ROUTE("celebrities") },
   { name: "Authors", path: AUTHORS_ROUTE },
   { name: "About Us", path: ABOUT_US_ROUTE },
 ]
 
 // Additional footer category links
 export const footerCategoryLinks = [
-  { name: "J-Drama", path: CATEGORY_ID_ROUTE("jdrama") },
-  { name: "C-Drama", path: CATEGORY_ID_ROUTE("cdrama") },
-  { name: "Bollywood", path: CATEGORY_ID_ROUTE("bollywood") },
   { name: "Reviews", path: CATEGORY_ID_ROUTE("reviews") },
-  { name: "Actors & Idols", path: CATEGORY_ID_ROUTE("actors") },
+  { name: "Box Office", path: CATEGORY_ID_ROUTE("box-office") },
+  { name: "Streaming", path: CATEGORY_ID_ROUTE("streaming") },
+  { name: "Awards & Events", path: CATEGORY_ID_ROUTE("awards") },
   { name: "Lists & Guides", path: CATEGORY_ID_ROUTE("lists") },
+  { name: "Behind the Scenes", path: CATEGORY_ID_ROUTE("behind-the-scenes") },
 ]

@@ -9,14 +9,14 @@ const theme = extendTheme({
   },
   colors: {
     brand: {
-      primary: "#6366F1", // Modern indigo
-      secondary: "#4F46E5", // Deep indigo
-      accent: "#F59E0B", // Warm amber
+      primary: "#DC2626", // Hollywood red
+      secondary: "#B91C1C", // Deep red
+      accent: "#F59E0B", // Gold / amber
       cream: "#FFFFFF",
-      parchment: "#F8FAFC", // Very light cool gray
-      ink: "#1E293B", // Slate-800
-      gray: "#64748B", // Slate-500
-      lightGray: "#94A3B8", // Slate-400
+      parchment: "#FEF9F5", // Warm off-white
+      ink: "#111827", // Near black
+      gray: "#6B7280", // Gray-500
+      lightGray: "#9CA3AF", // Gray-400
     },
   },
   breakpoints: {
@@ -36,12 +36,12 @@ const theme = extendTheme({
         primary: {
           bg: "brand.primary",
           color: "white",
-          _hover: { bg: "#4F46E5", transform: "translateY(-1px)" },
+          _hover: { bg: "#B91C1C", transform: "translateY(-1px)" },
         },
         outline: {
           borderColor: "brand.primary",
           color: "brand.primary",
-          _hover: { bg: "indigo.50" },
+          _hover: { bg: "red.50" },
         },
       },
     },
@@ -69,7 +69,7 @@ const theme = extendTheme({
     global: {
       "::selection": {
         color: "white",
-        background: "#6366F1",
+        background: "#DC2626",
       },
       "::-webkit-scrollbar": {
         width: "0.5em",
@@ -103,11 +103,11 @@ const theme = extendTheme({
           marginBottom: 4,
         },
         a: {
-          color: "#6366F1",
+          color: "#DC2626",
           fontWeight: "500",
           _hover: {
             textDecoration: "underline",
-            color: "#4F46E5",
+            color: "#B91C1C",
           },
         },
         p: {
@@ -161,7 +161,7 @@ const theme = extendTheme({
             left: 0,
             bottom: 0,
             width: "4px",
-            bgColor: "#6366F1",
+            bgColor: "#DC2626",
             borderRadius: "full",
           },
         },
@@ -198,7 +198,7 @@ const theme = extendTheme({
         pointerEvents: "none",
       },
       "#nprogress .bar": {
-        background: "linear-gradient(90deg, #818CF8, #6366F1)",
+        background: "linear-gradient(90deg, #EF4444, #DC2626)",
         pos: "fixed",
         zIndex: 99999,
         top: 0,

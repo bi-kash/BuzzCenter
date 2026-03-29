@@ -1,13 +1,13 @@
-# Asian Reels
+# BuzzCenter
 
-Asian Reels — Your Gateway to Asian Movies & Dramas.
+BuzzCenter — Your Pulse on Hollywood Entertainment.
 
-Asian Reels is a modern entertainment platform delivering reviews, news, and feature articles about Asian movies and dramas. Covering K-dramas, J-dramas, C-dramas, Bollywood, anime, and more — your ultimate destination for Asian entertainment content. Configuration is driven by `contents/site-settings.json`.
+BuzzCenter is a modern entertainment platform delivering reviews, news, and feature articles about Hollywood movies, TV shows, and celebrities. Covering box office analysis, streaming picks, awards season, trailers, and more — your ultimate destination for Hollywood entertainment content. Configuration is driven by `contents/site-settings.json`.
 
 ## Features
 
-- Articles, reviews, and feature stories about Asian movies and dramas
-- Predefined categories (K-Drama, J-Drama, C-Drama, Thai Drama, Movies, Bollywood, Anime, Reviews, News, Actors & Idols, Lists & Guides, Opinion)
+- Articles, reviews, and feature stories about Hollywood movies and TV shows
+- Predefined categories (Movies, TV Shows, Celebrities, News, Reviews, Box Office, Streaming, Awards & Events, Trailers, Lists & Guides, Behind the Scenes, Opinion)
 - SEO-friendly dynamic `sitemap.xml`, `robots.txt`, and meta tags
 - PWA support and automatic icon generation
 - Uses `contents/site-settings.json` for site title, description, categories and contact info
@@ -25,8 +25,8 @@ Asian Reels is a modern entertainment platform delivering reviews, news, and fea
 1. Clone the repository
 
 ```bash
-git clone https://github.com/BackSuit/AsianReels.git
-cd AsianReels
+git clone https://github.com/bi-kash/BuzzCenter.git
+cd BuzzCenter
 ```
 
 2. Install dependencies
@@ -215,6 +215,6 @@ Built with:
 
 ---
 
-**Made with ❤️ by the Pet Life Store team**
+**Made with ❤️ by the BuzzCenter team**
 
-_Transform your pet shopping experience today!_
+_Your pulse on Hollywood entertainment!_
