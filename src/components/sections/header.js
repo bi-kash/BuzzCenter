@@ -40,7 +40,7 @@ function SearchBar() {
           <Icon as={HiSearch} color="gray.400" />
         </InputLeftElement>
         <Input
-          placeholder="Search dramas & movies..."
+          placeholder="Search movies & shows..."
           value={searchQuery}
           onChange={e => setSearchQuery(e.target.value)}
           bg="gray.50"
@@ -50,7 +50,7 @@ function SearchBar() {
           _placeholder={{ color: "gray.400" }}
           _focus={{
             borderColor: "brand.primary",
-            boxShadow: "0 0 0 1px #6366F1",
+            boxShadow: "0 0 0 1px #DC2626",
             bg: "white",
           }}
         />

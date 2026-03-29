@@ -1,87 +1,82 @@
 {
-  "site_name": "Asian Reels",
-  "site_title": "Asian Reels",
-  "logo_text": "Asian Reels",
-  "tagline": "Your Gateway to Asian Movies & Dramas",
+  "site_name": "BuzzCenter",
+  "site_title": "BuzzCenter",
+  "logo_text": "BuzzCenter",
+  "tagline": "Your Pulse on Hollywood Entertainment",
   "instagram_account": "",
   "twitter_account": "",
-  "github": "BackSuit/AsianReels",
+  "github": "bi-kash/BuzzCenter",
   "facebook_account": "",
-  "whatsapp": "+9779840889975",
-  "base_url": "https://asianreels.com",
+  "whatsapp": "",
+  "base_url": "https://buzzcenter.com",
   "site_keywords": [
-    { "keyword": "Asian dramas" },
-    { "keyword": "Korean dramas" },
-    { "keyword": "K-drama reviews" },
-    { "keyword": "Japanese movies" },
-    { "keyword": "Chinese dramas" },
-    { "keyword": "Thai dramas" },
-    { "keyword": "Asian movies" },
-    { "keyword": "drama reviews" },
-    { "keyword": "Asian entertainment" },
-    { "keyword": "Bollywood" },
-    { "keyword": "anime movies" },
-    { "keyword": "Asian Reels" }
+    { "keyword": "Hollywood news" },
+    { "keyword": "movie reviews" },
+    { "keyword": "celebrity gossip" },
+    { "keyword": "box office" },
+    { "keyword": "TV shows" },
+    { "keyword": "streaming" },
+    { "keyword": "entertainment news" },
+    { "keyword": "film reviews" },
+    { "keyword": "Hollywood movies" },
+    { "keyword": "awards season" },
+    { "keyword": "celebrity interviews" },
+    { "keyword": "BuzzCenter" }
   ],
-  "site_description": "Asian Reels is your ultimate destination for articles, reviews, and news about Asian movies and dramas. From K-dramas and J-dramas to Bollywood blockbusters and C-dramas — discover the best of Asian entertainment.",
-  "seo_meta_title": "Asian Reels - Asian Movie & Drama Reviews, News & Articles",
-  "seo_meta_description": "Discover the best of Asian entertainment on Asian Reels. In-depth reviews, latest news, actor spotlights, and curated lists covering Korean, Japanese, Chinese, Thai dramas and movies.",
-  "seo_meta_keywords": "Asian dramas, Korean dramas, K-drama, J-drama, C-drama, Thai drama, Asian movies, Bollywood, anime movies, drama reviews, Asian entertainment",
+  "site_description": "BuzzCenter is your ultimate destination for Hollywood entertainment — breaking news, movie reviews, celebrity spotlights, box office analysis, and the latest from the world of film and television.",
+  "seo_meta_title": "BuzzCenter - Hollywood Movie Reviews, Celebrity News & Entertainment",
+  "seo_meta_description": "Stay on top of Hollywood with BuzzCenter. In-depth movie reviews, celebrity news, box office updates, streaming picks, and exclusive coverage of awards season and red carpet events.",
+  "seo_meta_keywords": "Hollywood news, movie reviews, celebrity news, box office, TV shows, streaming, entertainment news, film reviews, awards, red carpet, Hollywood movies",
   "contact_address": "",
   "contact_phonenumber": "",
-  "contact_email": "hello@asianreels.com",
+  "contact_email": "hello@buzzcenter.com",
   "posts_per_page": 12,
   "use_api_categories": false,
   "predefined_categories": [
     {
-      "slug": "kdrama",
-      "name": "K-Drama",
-      "description": "Reviews, recaps, and news about Korean dramas"
-    },
-    {
-      "slug": "jdrama",
-      "name": "J-Drama",
-      "description": "Coverage of Japanese dramas and live-action series"
-    },
-    {
-      "slug": "cdrama",
-      "name": "C-Drama",
-      "description": "Chinese drama reviews, recommendations, and updates"
-    },
-    {
-      "slug": "thai-drama",
-      "name": "Thai Drama",
-      "description": "Thai lakorn and BL drama reviews, news, and spotlights"
-    },
-    {
       "slug": "movies",
       "name": "Movies",
-      "description": "Asian movie reviews, box office news, and film festival coverage"
+      "description": "Hollywood movie reviews, box office news, and upcoming releases"
     },
     {
-      "slug": "bollywood",
-      "name": "Bollywood",
-      "description": "Bollywood movie reviews, celebrity news, and industry updates"
+      "slug": "tv-shows",
+      "name": "TV Shows",
+      "description": "Coverage of popular TV series, streaming originals, and new seasons"
     },
     {
-      "slug": "anime",
-      "name": "Anime",
-      "description": "Anime movie and series reviews, seasonal guides, and news"
-    },
-    {
-      "slug": "reviews",
-      "name": "Reviews",
-      "description": "In-depth reviews and ratings of Asian movies and dramas"
+      "slug": "celebrities",
+      "name": "Celebrities",
+      "description": "Celebrity news, interviews, profiles, and red carpet moments"
     },
     {
       "slug": "news",
       "name": "News",
-      "description": "Latest entertainment news, casting announcements, and industry updates"
+      "description": "Breaking Hollywood news, casting announcements, and industry updates"
     },
     {
-      "slug": "actors",
-      "name": "Actors & Idols",
-      "description": "Profiles, interviews, and spotlights on Asian actors and idols"
+      "slug": "reviews",
+      "name": "Reviews",
+      "description": "In-depth reviews and ratings of movies and TV shows"
+    },
+    {
+      "slug": "box-office",
+      "name": "Box Office",
+      "description": "Box office results, predictions, opening weekend analysis, and trends"
+    },
+    {
+      "slug": "streaming",
+      "name": "Streaming",
+      "description": "Netflix, Disney+, HBO, and streaming platform news and picks"
+    },
+    {
+      "slug": "awards",
+      "name": "Awards & Events",
+      "description": "Oscars, Emmys, Golden Globes, and red carpet event coverage"
+    },
+    {
+      "slug": "trailers",
+      "name": "Trailers",
+      "description": "Latest movie and TV show trailers, teasers, and first looks"
     },
     {
       "slug": "lists",
@@ -89,9 +84,14 @@
       "description": "Curated watchlists, top picks, and recommendation guides"
     },
     {
+      "slug": "behind-the-scenes",
+      "name": "Behind the Scenes",
+      "description": "Production stories, director spotlights, and filmmaking insights"
+    },
+    {
       "slug": "opinion",
       "name": "Opinion",
-      "description": "Editorials, fan theories, and opinion pieces on Asian entertainment"
+      "description": "Editorials, fan theories, and opinion pieces on Hollywood entertainment"
     }
   ],
   "navbar_groups": [
@@ -100,25 +100,16 @@
       "slug": "news"
     },
     {
-      "label": "Dramas",
-      "items": [
-        "kdrama",
-        "jdrama",
-        "cdrama",
-        "thai-drama"
-      ]
-    },
-    {
       "label": "Movies",
       "slug": "movies"
     },
     {
-      "label": "Bollywood",
-      "slug": "bollywood"
+      "label": "TV Shows",
+      "slug": "tv-shows"
     },
     {
-      "label": "Anime",
-      "slug": "anime"
+      "label": "Celebrities",
+      "slug": "celebrities"
     },
     {
       "label": "Reviews",
@@ -127,17 +118,21 @@
     {
       "label": "More",
       "items": [
-        "actors",
+        "box-office",
+        "streaming",
+        "awards",
+        "trailers",
         "lists",
+        "behind-the-scenes",
         "opinion"
       ]
     }
   ],
   "featured_categories": [
-    "kdrama",
     "movies",
-    "bollywood",
-    "anime"
+    "celebrities",
+    "tv-shows",
+    "streaming"
   ],
   "podcast_cover_url": "https://res.cloudinary.com/yacloud/image/upload/v1614332851/ya-pod_gi1tmm.jpg",
   "mood_cover_url": "/images/mood/v5/mood-v5-cover.jpg"

@@ -153,7 +153,7 @@ function FooterForm({
         w="full"
         fontWeight="600"
         isLoading={submitLoading}
-        _hover={{ bg: "#C7325A" }}
+        _hover={{ bg: "#B91C1C" }}
       >
         Send
       </Button>
@@ -334,43 +334,6 @@ export default function Footer() {
           <Text fontSize="sm" color="gray.400" maxW="280px" lineHeight="1.6">
             {tagline}
           </Text>
-          <Box
-            borderLeft="4px solid"
-            borderColor="brand.primary"
-            pl={4}
-            py={3}
-            pr={3}
-            bg="gray.800"
-            borderRadius="md"
-          >
-            <Heading size="sm" mb={2} color="white">
-              Domain For Sale
-            </Heading>
-            <Text fontSize="sm" color="gray.300" mb={2}>
-              This domain is available for purchase. Interested in buying?
-            </Text>
-            <VStack align="flex-start" spacing={2} fontSize="sm">
-              <ChakraLink
-                href={`https://www.godaddy.com/en-in/domainsearch/find?domainToCheck=${
-                  domainToCheck || siteName
-                }`}
-                isExternal
-                rel="noopener"
-                color="brand.primary"
-                fontWeight="600"
-                _hover={{ textDecoration: "underline", color: "red.300" }}
-              >
-                Buy on GoDaddy
-              </ChakraLink>
-              <Text color="gray.400">
-                Message me for negotiation or custom offers
-              </Text>
-              <Text color="gray.500" fontSize="xs" fontStyle="italic">
-                <strong>Special Offer:</strong> Get 10% discount if you use
-                escrow.com for secure payment. Message me for details!
-              </Text>
-            </VStack>
-          </Box>
           <HStack
             spacing={2}
             align="center"

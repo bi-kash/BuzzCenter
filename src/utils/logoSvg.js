@@ -1,7 +1,7 @@
 /**
- * Asian Reels logo SVG generator — shared between generate-icons.js and Logo.js.
+ * BuzzCenter logo SVG generator — shared between generate-icons.js and Logo.js.
  *
- * Film-reel inspired icon matching the ReelMark in Logo.js.
+ * Star icon matching the BuzzMark in Logo.js.
  * SVG's viewBox attribute handles scaling to any output size automatically.
  *
  * Pure CommonJS — safe to require() in Node.js scripts.
@@ -15,15 +15,11 @@ function getReelMarkSvg(size, bgColor) {
     '" height="' +
     s +
     '" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">\n' +
-    '  <defs><linearGradient id="reelGrad" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">' +
-    '<stop offset="0%" stop-color="#818CF8"/><stop offset="100%" stop-color="#4F46E5"/>' +
+    '  <defs><linearGradient id="buzzGrad" x1="0" y1="0" x2="38" y2="38" gradientUnits="userSpaceOnUse">' +
+    '<stop offset="0%" stop-color="#EF4444"/><stop offset="100%" stop-color="#B91C1C"/>' +
     "</linearGradient></defs>\n" +
-    '  <rect width="38" height="38" rx="10" fill="url(#reelGrad)"/>\n' +
-    '  <rect x="3" y="8" width="3" height="3" rx="0.75" fill="white" opacity="0.35"/>\n' +
-    '  <rect x="3" y="14" width="3" height="3" rx="0.75" fill="white" opacity="0.35"/>\n' +
-    '  <rect x="3" y="20" width="3" height="3" rx="0.75" fill="white" opacity="0.35"/>\n' +
-    '  <rect x="3" y="26" width="3" height="3" rx="0.75" fill="white" opacity="0.35"/>\n' +
-    '  <path d="M16 12 L16 26 L27 19Z" fill="white" opacity="0.95"/>\n' +
+    '  <rect width="38" height="38" rx="10" fill="url(#buzzGrad)"/>\n' +
+    '  <path d="M19 7 L21.5 15 L30 15 L23.5 20 L25.5 28 L19 23.5 L12.5 28 L14.5 20 L8 15 L16.5 15 Z" fill="white" opacity="0.95"/>\n' +
     "</svg>"
   )
 }
